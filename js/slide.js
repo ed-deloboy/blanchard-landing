@@ -1,7 +1,10 @@
 const swiper = new Swiper('.swiper-container', {
     slidesPerView: 3,
     spaceBetween: 50,
-    slidesPerColumn: 2,
+    grid: {
+        rows: 2,
+        columns: 3,
+    },
     direction: 'horizontal',
     setWrapperSize: true,
     autoplay: {

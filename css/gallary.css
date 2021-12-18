@@ -93,8 +93,8 @@
 /* section gallary */
 
 .gallary {
-    padding-top: 50px;
-    padding-bottom: 80px;
+    padding-top: 73px;
+    padding-bottom: 78px;
     background-image: url(../img/gallary/background-birmingham-museums-trust.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -102,13 +102,14 @@
 
 .gallary__title {
     color: white;
-    margin-bottom: 42px;
+    margin-bottom: 30px;
 }
 
 .gallery__content-container {
     display: flex;
     flex: 1 1 auto;
     justify-content: space-between;
+    padding: 10px 0px;
 }
 
 .gallary__left-wrapper {
@@ -116,10 +117,13 @@
     flex-direction: column;
     justify-content: space-between;
     max-width: 440px;
+    margin-right: 40px;
 }
 
 .gallary__filter-descr {
     color: white;
+    max-width: 325px;
+    line-height: 32px;
 }
 
 .gallary__filter-link {
@@ -139,12 +143,16 @@
     margin-top: 80px;
 }
 
+.gallary__slider-container {
+    overflow: hidden;
+}
+
 
 /* slide */
 
 .swiper-container {
     width: 1150px;
-    height: 900px;
+    height: 760px;
 }
 
 .gallary-slide {
