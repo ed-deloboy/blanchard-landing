@@ -1,0 +1,51 @@
+.history {
+    position: relative;
+}
+
+.history__header-link {
+    display: flex;
+}
+
+.ui-tabs-nav {
+    margin-left: 20px !important;
+}
+
+.ui-widget-header {
+    background: transparent;
+    border: none !important;
+}
+
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited {
+    color: black;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    border: 1px solid transparent;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    background: transparent;
+    border: 1px solid #7943A4 !important;
+}
+
+
+/* bg tabs */
+
+.tabs-bg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+}
+
+.history__france-bg {
+    background-image: url(../img/history/france.svg);
+}
